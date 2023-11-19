@@ -125,7 +125,7 @@ const OrderForm = (): React.ReactElement => {
             <Box
               display="flex"
               justifyContent="center"
-              sx={{ py: 1, px: 4, background: "#563c5c", borderRadius: 2 }}
+              sx={{ py: 1, px: 4, background: "#212031", borderRadius: 2 }}
             >
               <h5 className="py-1 pr-4 text-gray-300">Cross</h5>
               <Divider
@@ -189,7 +189,7 @@ const OrderForm = (): React.ReactElement => {
                         inputProps: { min: 0 },
                       }}
                       sx={{
-                        background: "#563c5c",
+                        background: "#212031",
                         flexGrow: 1,
                         width: "100%",
                         input: { color: "rgba(255, 255, 255, 0.87)" },
@@ -202,7 +202,7 @@ const OrderForm = (): React.ReactElement => {
                       id="some-type"
                       placeholder="BBO"
                       sx={{
-                        background: "#563c5c",
+                        background: "#212031",
                         width: "100%",
                         input: { color: "rgba(255, 255, 255, 0.87)" },
                         borderRadius: "8px",
@@ -215,7 +215,7 @@ const OrderForm = (): React.ReactElement => {
                 <h5 className="text-gray-400 m-1">Amount (Cont)</h5>
                 <TextField
                   sx={{
-                    background: "#563c5c",
+                    background: "#212031",
                     marginBottom: 2,
                     input: { color: "rgba(255, 255, 255, 0.87)" },
                   }}

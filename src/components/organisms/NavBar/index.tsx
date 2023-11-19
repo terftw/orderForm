@@ -19,7 +19,7 @@ const ResponsiveAppBar = (): React.ReactElement => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{ background: "#563c5c" }}>
+      <AppBar position="static" style={{ background: "#212031" }}>
         <Toolbar variant="dense">
           <ModeNightIcon sx={{ mr: 1 }} />
           <Typography
